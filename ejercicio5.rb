@@ -25,3 +25,5 @@ end
 
 m = Morseable.new(4)
 puts m.to_morse
+
+#RESUELTO

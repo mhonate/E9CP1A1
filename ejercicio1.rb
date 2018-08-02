@@ -1,4 +1,5 @@
 class Anything
+	attr_accessor :a
   def foo
     @a = 5
   end
@@ -11,6 +12,6 @@ end
 any = Anything.new
 any.foo
 any.bar
-#any.a =>no se lee esta variable porque no esta definida.
-puts any.foo
-puts any.bar
+puts any.a
+
+#RESUELTO

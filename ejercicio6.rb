@@ -1,3 +1,11 @@
+=begin
+	
+## Ejercicio 6: Objetos y archivos.
+Se tiene un archivo llamado *catalogo.txt* que contiene los nombres de los productos que ofrece una tienda junto con los precios de las tallas *L, M, S y XS*.
+El siguiente código define la clase *Product* y además realiza la lectura del archivo.
+	
+=end
+
 class Product
 	attr_reader :name, :large, :medium, :small, :xsmall
   def initialize(name, large, medium, small, xsmall)

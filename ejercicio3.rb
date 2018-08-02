@@ -6,3 +6,5 @@ class Store
 end
 store = Store.new('Tienda 1')
 puts store.name
+
+#RESUELTO
